@@ -7,8 +7,8 @@ loginButton.addEventListener("click", (e) => {
     const password = document.getElementById("password-field").value;
     e.preventDefault();
 
-    if (username === "Nadav" && password === "12345") {
+    if ((username === "Nadav" && password === "12345") || (username === "Maayan" && password === "12345")) {
         alert("You have successfully logged in.");
         window.location.replace("./homepage.html");
-    } 
+    }
 })
