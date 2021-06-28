@@ -50,11 +50,8 @@ h1 {
 
 .Pekiin:hover {
     opacity: 50%;
-    width: 200px;
-    height: 200px;
 }
 
 .Pekiin:hover>.txt{
     font-size: 1.2em;
-    color: black;
 }
