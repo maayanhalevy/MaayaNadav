@@ -54,5 +54,13 @@ input:focus {
 }
 
 .form-group{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    opacity: 50%;
+}
+
+.form-control:focus{
+    opacity: 75%;
 }
