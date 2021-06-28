@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Aclonica', sans-serif;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.title-chicken{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-beef{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title-shushi{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:hover{
+    background-color: gray;
+}
