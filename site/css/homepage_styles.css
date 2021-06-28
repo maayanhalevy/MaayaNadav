@@ -39,3 +39,22 @@ h1 {
 .navbar-toggler:hover {
     background-color: gray;
 }
+
+.Pekiin{
+    background-image: url("../assets/photo_2021-05-20_21-30-32.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Pekiin:hover {
+    opacity: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.Pekiin:hover>.txt{
+    font-size: 1.2em;
+    color: black;
+}
