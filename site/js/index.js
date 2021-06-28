@@ -9,6 +9,6 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "Nadav" && password === "12345") {
         alert("You have successfully logged in.");
-        window.location.replace("/homepage.html");
+        window.location.replace("./homepage.html");
     } 
 })
