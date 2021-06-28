@@ -15,21 +15,7 @@ h1 {
     margin: 20px;
 }
 
-.title-chicken {
-    text-align: center;
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.title-beef {
-    text-align: center;
-    font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.title-shushi {
+.title-section {
     text-align: center;
     font-size: 1.2em;
     margin-top: 10px;
