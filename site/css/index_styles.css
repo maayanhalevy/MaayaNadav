@@ -1,97 +1,96 @@
 /* Made with love by Mutiullah Samim*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
-
-html,body{
-background-color:rgb(230, 202, 176);
-background-size: 50%;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
-}
-
-.container{
-height: 100%;
-align-content: center;
-}
-
-.card{
-height: 370px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-image: url('../assets/photo_2021-05-20_21-30-32.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-}
-
-.my-sub{
-    font-family: 'Lucida Handwriting';
-}
-.title{
+html, body {
+    background-color: rgb(230, 202, 176);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 100%;
     font-family: 'Numans', sans-serif;
 }
-.social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #e26849;
+
+.container {
+    height: 100%;
+    align-content: center;
 }
 
-.social_icon span:hover{
-color: white;
-cursor: pointer;
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-image: url('../assets/photo_2021-05-20_21-30-32.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.card-header h3{
-color: white;
+.my-sub {
+    font-family: 'Lucida Handwriting';
 }
 
-.social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
+.title {
+    font-family: 'Numans', sans-serif;
 }
 
-.input-group-prepend span{
-width: 50px;
-background-color:#e26849;
-color: rgb(250, 189, 161);
-border:0 !important;
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #e26849;
 }
 
-input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
 }
 
-.remember{
-color: white;
+.card-header h3 {
+    color: white;
 }
 
-.remember input
-{
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
 }
 
-.login_btn{
-color: white;
-background-color: #e26849;
-width: 100px;
+.input-group-prepend span {
+    width: 50px;
+    background-color: #e26849;
+    color: rgb(250, 189, 161);
+    border: 0 !important;
 }
 
-.login_btn:hover{
-color: white;
-background-color: white;
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
 }
 
-.links{
-color: white;
+.remember {
+    color: white;
 }
 
-.links a{
-margin-left: 4px;
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: white;
+    background-color: #e26849;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: white;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
 }
