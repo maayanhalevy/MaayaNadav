@@ -40,8 +40,7 @@ h1 {
     background-color: gray;
 }
 
-.Pekiin{
-    background-image: url("../assets/photo_2021-05-20_21-30-32.jpg");
+.img-btn {
     width: 200px;
     height: 200px;
     background-size: cover;
@@ -49,10 +48,28 @@ h1 {
     margin: 10px;
 }
 
-.Pekiin:hover {
+.img-btn:hover {
     opacity: 50%;
 }
 
-.Pekiin:hover>.txt{
+.img-btn>.txt{
+    background-color: white;
+    border-radius: 5%;
+    opacity: 80%;
+    width: 100%;
+}
+.img-btn:hover>.txt {
     font-size: 1.2em;
+}
+
+.Haifa {
+    background-image: url("../assets/Haifa.jpg");
+}
+
+.Herzliya {
+    background-image: url("../assets/Herzliya.jpg");
+}
+
+.Tel-Aviv {
+    background-image: url("../assets/Tel-Aviv.jpg");
 }
