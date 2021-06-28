@@ -4,7 +4,6 @@
 
 html,body{
 background-color:rgb(230, 202, 176);
-background-image: url('../assets/photo_2021-05-20_21-30-32.jpg');
 background-size: 50%;
 background-repeat: no-repeat;
 height: 100%;
@@ -21,7 +20,9 @@ height: 370px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+background-image: url('../assets/photo_2021-05-20_21-30-32.jpg');
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .my-sub{
