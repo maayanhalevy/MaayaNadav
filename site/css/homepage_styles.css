@@ -46,6 +46,7 @@ h1 {
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 10px;
 }
 
 .Pekiin:hover {
