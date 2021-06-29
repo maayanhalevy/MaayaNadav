@@ -20,32 +20,14 @@ body {
     font-family: 'Lucida Handwriting';
 }
 
-.social_icon span {
-    font-size: 60px;
-    margin-left: 10px;
-    color: #e26849;
-}
-
 .card-header h3 {
     color: white;
-}
-
-.input-group-prepend span {
-    width: 50px;
-    background-color: #e26849;
-    color: rgb(250, 189, 161);
-    border: 0 !important;
-}
-
-input:focus {
-    outline: 0 0 0 0 !important;
-    box-shadow: 0 0 0 0 !important;
 }
 
 .login_btn {
     color: white;
     background-color: #e26849;
-    width: 100px;
+    padding: 5px 20px 5px 20px;
 }
 
 .login_btn:hover {
@@ -63,6 +45,7 @@ input:focus {
 
 .form-control:focus{
     opacity: 75%;
+    box-shadow: 0 0 0 0;
 }
 
 .input-group-prepend{
@@ -70,8 +53,11 @@ input:focus {
     align-content: center;
     align-items: center;
 }
-.material-icons{
-    padding: 20%;
+
+.input-group-prepend span{
+    padding: 6px;
+    background-color: #e26849;
+    color: rgb(250, 189, 161);
     text-align: center;
     height: 100%;
     width: 100%;
