@@ -8,7 +8,8 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
 
     if ((username === "Nadav" && password === "12345") || (username === "Maayan" && password === "12345")) {
-        alert("You have successfully logged in.");
         window.location.replace("./homepage.html");
+    }else{
+        alert("Wrong username or password!");
     }
 })
