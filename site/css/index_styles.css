@@ -41,6 +41,7 @@ body {
 
 .form-control{
     opacity: 50%;
+    border-color: white;
 }
 
 .form-control:focus{
@@ -62,6 +63,8 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
 
 .login_btn{
     margin-top: 20px;
